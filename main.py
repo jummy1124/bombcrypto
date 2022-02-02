@@ -28,7 +28,7 @@ while True:
     
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
-    print("Current Time(wrest) =", current_time)
+    print("Current Time(rest) =", current_time)
     time.sleep(3)
     pyautogui.moveTo(950,910)
     pyautogui.click()
